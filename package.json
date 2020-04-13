@@ -1,6 +1,8 @@
 {
   "name": "0x2d",
   "version": "0.1.0",
+  "author": "Saul Bensach",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
