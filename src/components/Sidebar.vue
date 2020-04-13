@@ -82,10 +82,6 @@ div.list-group-item {
   right: 51%;
 }
 
-.hvr-underline-from-left:before {
-  left: 5px;
-}
-
 li.hvr-underline-from-center:before {
   height: 1px;
 }

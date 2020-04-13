@@ -61,5 +61,6 @@ body {
   padding-left: 13px;
   padding-top: 13px;
   overflow-y: scroll;
+  text-align: center;
 }
 </style>
