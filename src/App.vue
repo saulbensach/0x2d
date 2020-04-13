@@ -54,7 +54,6 @@ body {
 .content {
   margin-left: 320px;
   height: 100vh;
-  background-color: green;
   padding-left: 13px;
   padding-top: 13px;
   overflow-y: scroll;
