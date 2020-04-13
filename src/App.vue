@@ -26,6 +26,7 @@ export default class App extends Vue {
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import 'node_modules/hover.css/scss/hover.scss';
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
@@ -34,10 +35,13 @@ $breakpoint-desktop: 1440px;
 
 body {
   overflow-x: hidden;
+  line-height: 1.5;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -52,7 +56,7 @@ body {
 }
 
 .content {
-  margin-left: 320px;
+  margin-left: 15em;
   height: 100vh;
   padding-left: 13px;
   padding-top: 13px;
